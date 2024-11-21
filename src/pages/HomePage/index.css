@@ -1,0 +1,283 @@
+body {
+  overflow-x: hidden;
+}
+
+button {
+  display: block;
+
+  background-color: rgb(238, 48, 35);
+  padding: 15px 34px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: none;
+  transition: 0.6s ease-out;
+  cursor: pointer;
+  text-decoration: none;
+
+  color: rgb(255, 255, 255);
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: rgb(184, 37, 26);
+}
+
+.new-line {
+  display: block;
+}
+
+.container-background-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url('@assets/backgroundImage.jpg');
+  width: 100vw;
+  height: 100vh;
+  min-height: 100vh;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  margin-bottom: 50px;
+}
+
+.container {
+  width: 750px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-wrap: wrap;
+  font-family: 'Lora', 'Georgia', 'serif';
+  text-align: center;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 120%;
+  color: rgb(249, 249, 249);
+  margin-bottom: 25px;
+}
+
+.container-text {
+  display: block;
+  font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
+  font-size: 25px;
+  color: rgb(249, 249, 249);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.container-button {
+  margin: 0 auto;
+}
+
+
+.container-1 {
+  width: 1200px;
+  margin: 0 auto 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-1-text {
+  width: 500px;
+  margin-right: 220px;
+}
+
+.container-1 .h4-text {
+  display: block;
+  font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+span {
+  display: block;
+}
+
+.span-1 {
+  font-size: 40px;
+  line-height: 120%;
+  margin-bottom: 30px;
+}
+
+.span-2 {
+  font-size: 21px;
+  line-height: 145%;
+  margin-bottom: 50px;
+}
+
+.container-1-image {
+  width: 480px;
+}
+
+.container-1-img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.container-2 {
+  width: 1200px;
+  margin: 0 auto 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-2-image {
+  width: 480px;
+  margin-right: 120px;
+}
+
+.container-2-img {
+  width: 100%;
+  height: 100%;
+}
+
+.container-2-text {
+  width: 600px;
+}
+
+.h2-text {
+  display: block;
+  font-family: 'Lora', 'Georgia', 'serif';
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.ol {
+  display: flex;
+}
+
+.ol-image {
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.container-2-text ol {
+  list-style-type: none;
+  margin-bottom: 40px;
+}
+
+.container-2-text li {
+  margin: 50px 0;
+  position: relative;
+
+  font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
+  font-size: 17px;
+}
+
+.container-2-text li:first-child {
+  margin: 10px 0;
+}
+
+.container-2-text li:last-child {
+  margin: 60px 0;
+}
+
+.container-3 {
+  width: 1200px;
+  margin: 0 auto 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-3 .h2-text {
+  margin-bottom: 50px;
+}
+
+.text-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.icon {
+  width: 64px;
+  height: 64px;
+  background-color: red;
+  display: inline-block;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+
+  margin-bottom: 25px;
+}
+
+.icon-heart {
+  mask-image: url('@assets/heart.svg');
+}
+
+.icon-box {
+  mask-image: url('@assets/box.svg');
+}
+
+.icon-verified {
+  mask-image: url('@assets/verified.svg');
+}
+
+.icon-like {
+  mask-image: url('@assets/like.svg');
+}
+
+.icon-history {
+  mask-image: url('@assets/history.svg');
+}
+
+.quality-goods,
+.safe-delivery,
+.payment-options,
+.matching-sets,
+.deliver-on-time {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.matching-sets,
+.deliver-on-time {
+  width: 457px;
+}
+
+.container-3 .h4-text {
+  font-size: 23px;
+  font-family: 'Lora', 'Georgia', 'serif';
+  font-weight: 400;
+  line-height: 135%;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.container-3 .span-text {
+  color: rgb(112, 112, 112);
+  line-height: 155%;
+  font-weight: 300;
+  font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
+  font-size: 17px;
+  margin-bottom: 50px;
+}
+
+.container-4 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.container-4 img {
+  width: 457px;
+}

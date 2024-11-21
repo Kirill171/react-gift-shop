@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es6", // Целевая версия JavaScript
+    "module": "commonjs", // Система модулей
+    "baseUrl": "./", // Базовая директория для разрешения модулей
+    "paths": {
+      "@/*": [
+        "src/*"
+      ], // Псевдонимы для путей (например, импорт из 'src')
+      "@contexts/*": [
+        "src/contexts/*"
+      ]
+    },
+    "allowJs": true, // Разрешить компиляцию JavaScript файлов
+    "checkJs": false, // Включить проверку типов в JavaScript файлах
+    "moduleResolution": "node", // Разрешение модулей (как в Node.js)
+    "esModuleInterop": true, // Поддержка ES модуля
+    "jsx": "react", // Поддержка JSX
+    "strict": true, // Включение строгого режима
+    "skipLibCheck": true, // Пропуск проверки типов в библиотеках
+    "forceConsistentCasingInFileNames": true // Согласованность регистра в именах файлов
+  },
+  "include": [
+    "src/**/*",
+    "src/images.d.ts",
+    "src/index.tsx"
+  ], // Включает все файлы в папке src
+  "exclude": [
+    "node_modules",
+    "build"
+  ] // Игнорировать эти папки
+}

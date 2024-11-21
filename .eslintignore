@@ -1,0 +1,13 @@
+# Игнорировать директории и файлы
+node_modules/
+dist/
+build/
+coverage/
+*.min.js
+
+# Игнорировать конфигурационные файлы
+*.config.js
+*.spec.js
+
+test/fixtures
+**/app/public

@@ -1,0 +1,145 @@
+.header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 85px;
+  margin: 0 auto;
+}
+
+.header a {
+  padding: 20px 30px;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "sans-serif";
+  color: rgb(115, 115, 115);
+
+  transition: color 0.3s ease;
+}
+
+.header a:hover {
+  color: rgb(238, 48, 35);
+}
+
+.header .logo-link:hover .dot {
+  color: rgb(0, 0, 0);
+}
+
+.header .active {
+  color: black;
+  scale: 1.1;
+}
+
+.header .logo-link {
+  display: flex;
+  padding: 0;
+  text-transform: none;
+  position: absolute;
+  left: 0;
+
+  font-size: 28px;
+  color: rgb(0, 0, 0);
+}
+
+.header .logo-link .dot {
+  font-size: 28px;
+  color: rgb(238, 48, 35);
+  text-decoration-color: rgb(238, 48, 35);
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.header .basket-link {
+  position: absolute;
+  right: 310px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.header .basket-img {
+  width: 20px;
+  height: 20px;
+}
+
+header .sign-up {
+  position: absolute;
+  right: 110px;
+  display: block;
+
+  background-color: rgb(238, 48, 35);
+  padding: 15px 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: none;
+  transition: 0.6s ease-out;
+  cursor: pointer;
+  text-decoration: none;
+
+  color: rgb(255, 255, 255);
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+  text-transform: uppercase
+}
+
+header .sign-in {
+  position: absolute;
+  right: 0;
+  display: block;
+
+  background-color: rgb(238, 48, 35);
+  padding: 15px 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: none;
+  transition: 0.6s ease-out;
+  cursor: pointer;
+  text-decoration: none;
+
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+  text-transform: uppercase
+}
+
+header .sign-out {
+  position: absolute;
+  right: 0;
+  display: block;
+
+  background-color: rgb(238, 48, 35);
+  padding: 15px 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: none;
+  transition: 0.6s ease-out;
+  cursor: pointer;
+  text-decoration: none;
+
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+  text-transform: uppercase
+}
+
+.sign-out:hover {
+  background-color: rgb(184, 37, 26);
+  color: white;
+}
+
+header .sign-up:hover {
+  background-color: rgb(184, 37, 26);
+  color: white;
+}
+
+header .sign-in:hover {
+  background-color: rgb(184, 37, 26);
+  color: white;
+}

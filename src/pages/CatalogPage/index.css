@@ -1,0 +1,41 @@
+.catalog-container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.catalog-hr {
+  margin-bottom: 50px;
+}
+
+.catalog-container .gift {
+  width: 390px;
+}
+
+.catalog-container .gift-image {
+  width: 360px;
+  height: 421px;
+  border-radius: 6px;
+}
+
+.catalog-container .catalog-h4-text {
+  margin: 25px 0;
+  font-family: 'Lora', 'Georgia', 'serif';
+  font-size: 23px;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+.catalog-container .catalog-span {
+  margin: 25px 0;
+  line-height: 145%;
+  font-weight: 300;
+  font-family: Inter, sans-serif;
+  font-size: 21px;
+}
+
+.catalog-container .catalog-button {
+  margin-bottom: 100px;
+}

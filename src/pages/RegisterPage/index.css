@@ -1,0 +1,43 @@
+.background-blue {
+  background-color: rgb(217, 229, 255);
+  width: 100vw;
+  height: 100vh;
+}
+
+.register-container {
+  margin: 5px auto;
+  width: 415px;
+  height: 630px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+input {
+  height: 45px;
+  width: 100%;
+  line-height: 16px;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 15px 0;
+  font-size: 16px;
+}
+
+.sign-up-button {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.sign-up-text {
+  text-align: center;
+  margin: 15px;
+}
+
+.sign-in-with-google {
+  width: 100%;
+  background-color: rgb(24, 75, 184);
+}
+
+.sign-in-with-google:hover {
+  background-color: rgb(18, 55, 134);
+}

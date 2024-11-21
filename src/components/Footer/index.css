@@ -1,0 +1,123 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(26, 29, 31);
+  color: rgb(249, 249, 249);
+}
+
+footer .h2-text {
+  display: block;
+  width: fit-content;
+  padding: 50px;
+}
+
+footer .footer-h4-text {
+  font-family: 'Lora', 'Georgia', 'serif';
+  font-size: 23px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+footer .container {
+  display: flex;
+  align-items: start;
+}
+
+footer .footer-container-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+footer .footer-container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+footer .custom-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.custom-list li {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 25px;
+}
+
+.custom-list li.item-1::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-image: url('@assets/telephone.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: invert(1) brightness(2);
+}
+
+.custom-list li.item-2::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-image: url('@assets/location.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: invert(1) brightness(2);
+}
+
+.custom-list li.item-3::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-image: url('@assets/speech-bubble.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: invert(1) brightness(2);
+}
+
+footer .links {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+}
+
+footer .links a {
+  display: block;
+}
+
+footer hr {
+  width: 1200px;
+  border: none;
+  border-top: 2px solid rgb(55, 55, 55);
+  margin: 25px;
+}
+
+footer .logo {
+  display: flex;
+  color: rgb(249, 249, 249);
+  font-size: 21px;
+  font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
+  margin-bottom: 25px;
+}
+
+footer .dot {
+  color: rgb(238, 48, 35);
+}
